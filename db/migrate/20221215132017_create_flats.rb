@@ -3,7 +3,7 @@ class CreateFlats < ActiveRecord::Migration[7.0]
     create_table :flats do |t|
       t.string :name
       t.string :address
-      t.integer :description
+      t.string :description
       t.integer :price_per_night
       t.integer :number_of_guests
 
